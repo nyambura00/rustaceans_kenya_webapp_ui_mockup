@@ -1,0 +1,138 @@
+body {
+    font-family: "poppinsregular", "sans-serif";
+    text-decoration: none !important;
+}
+
+#body {
+    min-height: 100vh;
+    min-width: 100vw;
+    border-image: url('/images/hero-small.svg') 98 stretch;
+    border-image-width: 30px;
+    border-image-repeat: repeat;
+}
+
+@media (max-width: 767px) { /* for sm devices */
+    #body {
+        min-height: 100vh;
+        min-width: 100vw;
+        border-image: url('/images/hero-small.svg') 90 stretch;
+        border-image-width: 15px;
+        border-image-repeat: repeat;
+    }
+}
+
+#top-nav {
+    padding: 1rem;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap; /* Allows elements to wrap on smaller screens */
+    justify-content: space-between;
+}
+
+#nav-items .button {
+    padding: 0.5rem 1rem;
+    background-color: #C03A31;
+    color: white;
+    border-radius: 30px;
+}
+
+#nav-items .a:hover { 
+    color: #000000;
+    text-decoration: dotted !important;
+}
+
+.button-link {
+    font-family: "brizelregular", "sans-serif";
+    border: 2px solid #F39192;
+    border-radius: 30px;
+    padding: 10px 15px;
+    background-color: #F39192;
+}
+
+.button-link:hover {
+    font-family: "brizelregular", "sans-serif";
+    border: 2px solid #F39192;
+    border-radius: 30px;
+    padding: 10px 15px;
+    background-color: #F39192;
+    color: #000000;
+}
+
+.button-link a:hover {
+    text-decoration: none !important;
+    color: #FFFFFF;
+}
+
+.button-link a:visited {
+    text-decoration: none;
+    color: #C03A31;
+    background-color: #F39192;
+}
+
+.font-brizel-regular {
+    font-family: "brizelregular", "sans-serif";
+}
+
+.font-poppins-regular {
+    font-family: "poppinsregular", "sans-serif";
+}
+
+.font-size-400 {
+    font-size: 400%;
+}
+
+.font-size-150 {
+    font-size: 150%;
+}
+
+.font-size-100 {
+    font-size: 100%;
+}
+
+.font-size-200 {
+    font-size: 200%;
+}
+
+.font-size-300 {
+    font-size: 300%;
+}
+
+.width-100 {
+    width: 100% !important;
+}
+
+.width-50 {
+    width: 50% !important;
+}
+
+.width-20 {
+    width: 20% !important;
+}
+
+.border-red {
+    border: 1px solid red;
+}
+
+.color-primary {
+    color: #C03A31;
+}
+
+.bg-color-primary {
+    background-color: #C03A31;
+}
+
+.color-secondary {
+    color: #F39192;
+}
+
+.bg-color-secondary {
+    background-color: #F39192;
+}
+
+.color-tertiary {
+    color: #FFFFFF;
+}
+
+.bg-color-tertiary {
+    background-color: #FFFFFF;
+}
