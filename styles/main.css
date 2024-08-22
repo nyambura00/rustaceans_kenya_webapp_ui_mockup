@@ -3,21 +3,23 @@ body {
     text-decoration: none !important;
 }
 
-#body {
+#body-div {
+    position: relative;
     min-height: 100vh;
     min-width: 100vw;
-    border-image: url('/images/hero-small.svg') 98 stretch;
-    border-image-width: 30px;
-    border-image-repeat: repeat;
+    border-image: url('/images/hero-large.svg') 120 fill stretch;
+    border-image-width: 20px;
+    border-image-repeat: stretch;
+    border-style: solid rgba(0, 0, 0, 0.5);
 }
 
-@media (max-width: 767px) { /* for sm devices */
-    #body {
+@media (max-width: 767px) { /* sm devices */
+    #body-div {
         min-height: 100vh;
         min-width: 100vw;
-        border-image: url('/images/hero-small.svg') 90 stretch;
-        border-image-width: 15px;
-        border-image-repeat: repeat;
+        border-image: url('/images/hero-small.svg') 81 fill stretch;
+        border-image-width: 20px;
+        border-image-repeat: stretch;
     }
 }
 
