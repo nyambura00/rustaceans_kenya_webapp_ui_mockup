@@ -79,16 +79,12 @@ body {
     font-family: "poppinsregular", "sans-serif";
 }
 
-.font-size-400 {
-    font-size: 400%;
+.font-size-100 {
+    font-size: 100%;
 }
 
 .font-size-150 {
     font-size: 150%;
-}
-
-.font-size-100 {
-    font-size: 100%;
 }
 
 .font-size-200 {
@@ -97,6 +93,10 @@ body {
 
 .font-size-300 {
     font-size: 300%;
+}
+
+.font-size-400 {
+    font-size: 400%;
 }
 
 .width-100 {
