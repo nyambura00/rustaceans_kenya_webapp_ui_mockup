@@ -16,18 +16,19 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    border: 20px solid transparent;
-    border-image: url('/images/hero-large.svg') 120 fill stretch; /* TODO: Adjust stretch */
+    border: 24px solid transparent;
+    border-image: url('/images/hero-large.svg') 160 round;
+    border-width: 24px;
+    border-image-width: 24px;
     pointer-events: none;
 }
 
 @media (max-width: 767px) { /* sm devices */
+    #body-div::before,
     #body-div::after {
-        min-height: 100vh;
-        min-width: 100vw;
-        border-image: url('/images/hero-small.svg') 81 fill stretch; /* TODO: Adjust stretch */
-        border-image-width: 20px;
-        border-image-repeat: stretch;
+        border-image: url('/images/hero-small.svg') 70 round;
+        border-width: 8px;
+        border-image-width: 18px;
     }
 }
 
@@ -186,6 +187,17 @@ body {
     .footer-logo, .footer-copyright, .footer-social {
         margin-bottom: 1rem;
     }
+}
+
+/* Hide scrollbar for all elements */
+::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+}
+
+html, body {
+    overflow: -moz-scrollbars-none; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+    scrollbar-width: none; /* For Firefox */
 }
 
 .font-brizel-regular {
