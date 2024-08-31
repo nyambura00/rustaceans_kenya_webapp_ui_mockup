@@ -52,6 +52,40 @@ body {
     text-decoration: dotted !important;
 }
 
+#hero {
+    background-image: url('/images/grass.svg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 10%;
+}
+
+@media (max-width: 767px) { /* sm devices */
+    #hero {
+        background-size: 15%;
+    }
+}
+
+#chapters-header {
+    background-image: url('/images/ferris.svg');
+    background-position: 10% 30%;
+    background-repeat: no-repeat;
+    background-size: 5%;
+}
+
+@media (max-width: 767px) { /* sm devices */
+    #chapters-header {
+        background-size: 5%;
+        background-position: right 50% 50%;
+    }
+}
+
+#contact {
+    background-image: url('/images/shells.svg');
+    background-position: 10% 30%;
+    background-repeat: no-repeat;
+    background-size: 5%;
+}
+
 .button-link {
     font-family: "brizelregular", "sans-serif";
     border: 2px solid #F39192;
